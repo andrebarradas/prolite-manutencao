@@ -1,0 +1,42 @@
+body {
+    overflow: none;
+    background-image:url(../img/background-site.jpg);
+    color:#FFF;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#back {
+	display: block;
+	text-align: center;
+	margin-top: -40px;
+    margin-left: auto;
+	margin-right: auto;
+}
+#wrapper {
+	display: block;
+    margin-left: auto;
+	margin-right: auto;
+	background: #101010;
+	-moz-box-shadow: 0px -11px 85px 18px #BA8809;
+	-webkit-box-shadow: 0px -11px 85px 18px #BA8809;
+	box-shadow: 0px -11px 85px 18px #BA8809;
+}
+a:link, a:visited {
+	text-decoration: none
+}
+a:hover {
+	text-decoration: underline; 
+	color: #CCC
+}
+a:active {
+	text-decoration: none
+}
+a:link, a:visited, a:active {
+	text-decoration:none;
+	color: #CCC
+}
+a:hover {
+	text-decoration: underline; 
+	color:#000; 
+	background:#CCC; 
+}
